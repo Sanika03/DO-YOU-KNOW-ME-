@@ -22,3 +22,19 @@ function welcome(){
   console.log('Welcome ' + userName + ' !');
   console.log("LET'S CHECK HOW WELL YOU KNOW ME !");
 }
+
+function quiz(question, answer){
+  var userAnswer = readlineSync.question(question);
+  
+  if(userAnswer.toLowerCase() === answer.toLowerCase()){
+    console.log("Right !");
+    score++;
+  }
+  else{
+    console.log("Wrong !");
+    console.log(answer);
+  }
+
+  console.log("Current score = " + score);
+  console.log("::::::::::::::::::::");
+}
