@@ -1,5 +1,18 @@
 var readlineSync = require('readline-sync');
 
+var score = 0;
+
+var highScores = [
+  {
+    name : "Shruti",
+    score : 4
+  } , 
+  {
+    name : "Neelu",
+    score : 5
+  }
+];
+
 var questions = [{
     question : 'What is my favourite colour ? ',
     answer : 'Black'
