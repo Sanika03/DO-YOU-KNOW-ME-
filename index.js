@@ -16,3 +16,9 @@ var questions = [{
     question : 'What is my height in feet ? ',
     answer : '5.6'
   }];
+
+function welcome(){
+  var userName = readlineSync.question('What is your name ? ');
+  console.log('Welcome ' + userName + ' !');
+  console.log("LET'S CHECK HOW WELL YOU KNOW ME !");
+}
