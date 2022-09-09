@@ -41,6 +41,8 @@
   
   <a href="mailto:sanikasuryawanshi0305@gmail.com">Email</a>  
   
+  <a href="https://www.linkedin.com/in/sanika-suryawanshi-b17181205/">LinkedIn</a>
+  
   [Project link](https://replit.com/@SanikaSuryawans/DO-YOU-KNOW-ME#index.js?embed=1&output=1%20add)
 
 
